@@ -684,6 +684,27 @@
       box-shadow: var(--glow-teal);
       transform: translateY(-2px);
     }
+    .lang-row {
+  display: flex; gap: 12px; flex-wrap: wrap;
+  margin-top: 16px;
+}
+.lang-pill {
+  display: flex; align-items: center; gap: 10px;
+  padding: 8px 18px;
+  border: 1px solid rgba(0,245,255,0.2);
+  background: rgba(0,245,255,0.04);
+}
+.lang-name {
+  font-family: var(--font-body);
+  font-size: 0.9rem;
+  color: var(--white);
+}
+.lang-level {
+  font-family: var(--font-head);
+  font-size: 0.6rem;
+  letter-spacing: 2px;
+  color: var(--teal);
+}
     .btn-soon {
       display: inline-flex; align-items: center; gap: 8px;
       font-family: var(--font-head);
@@ -877,7 +898,7 @@
       <p class="hero-role">&#x25B6; Web Developer &nbsp;/&nbsp; WordPress Specialist</p>
       <p class="hero-bio">
         Passionate developer building modern, responsive websites and WordPress solutions.
-        Pursuing BS Information Technology at GCU Faisalabad — turning ideas into digital experiences.
+        Pursuing BS Information Technology at GCU Faisalabad — turning ideas into digital experiences. and eager to grow through real-world professional opportunities.
       </p>
       <div class="hero-actions">
         <a href="#projects" class="btn-primary">View Projects</a>
@@ -933,6 +954,21 @@
       </div>
     </div>
   </section>
+  <div class="lang-row">
+        <div class="lang-pill">
+          <span class="lang-name">Urdu</span>
+          <span class="lang-level">Native</span>
+        </div>
+        <div class="lang-pill">
+          <span class="lang-name">English</span>
+          <span class="lang-level">Basic</span>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- SKILLS -->
 
   <!-- SKILLS -->
   <section id="skills">
